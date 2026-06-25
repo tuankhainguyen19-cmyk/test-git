@@ -1,0 +1,30 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "\"# test-git\" \r \"# test-git\"",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuankhainguyen19-cmyk/test-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tuankhainguyen19-cmyk/test-git/issues"
+  },
+  "homepage": "https://github.com/tuankhainguyen19-cmyk/test-git#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "husky": "^9.1.7"
+  }
+}
